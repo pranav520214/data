@@ -1,9 +1,0 @@
-source_id,organization,repository_name,coverage_region,data_types,access_protocol,license_type,verification_rating
-SRC_001,ICIMOD,Himalayan Cryosphere and Hazard Portal,Hindu Kush Himalaya (Nepal Bhutan India Pakistan),GLOF inventories debris flows flood maps,Public Scientific Reports & Open GeoPortal,CC-BY-4.0,VERIFIED_PRIMARY_SOURCE
-SRC_002,NASA GSFC,Global Landslide Catalog (GLC) / COOLR,Global (High Mountain Asia focus),Rainfall-triggered landslide events fatalities triggers,NASA Open Data Portal / Open Access,Open Data / Public Domain,VERIFIED_PRIMARY_SOURCE
-SRC_003,GSI India,Bhukosh Landslide Database & Forensic Reports,Himalayas & Western Ghats (India),Geological slip planes rock types borehole logs,Government Geological Survey Reports,Government Open Access,VERIFIED_PRIMARY_SOURCE
-SRC_004,DHM Nepal,Department of Hydrology and Meteorology Records,Nepal (77 districts),Extreme rainfall river discharge flood levels,Government Hydrological Bulletins,Official Government Data,VERIFIED_PRIMARY_SOURCE
-SRC_005,NDMA India,SACHET CAP Alert Feed & Investigation Reports,Pan-India (Himalayan focus),CAP multi-hazard advisories damage assessments,NDMA CAP Protocol / Government Reports,Government Open Access,VERIFIED_PRIMARY_SOURCE
-SRC_006,USGS,Gorkha 2015 Earthquake Landslide Inventory,Nepal Himalayas,Co-seismic landslide spatial points and volumes,USGS Open-File Reports,Public Domain,VERIFIED_PRIMARY_SOURCE
-SRC_007,Copernicus EMS,Rapid Mapping & Damage Assessment Portfolio,High Mountain Asia & Global,Satellite SAR and Optical damage proxy maps,Copernicus Open Access,Open Access / EU,MULTI_SOURCE_CORROBORATED
-SRC_008,NHESS & Landslides,International Consortium on Landslides,High Mountain Asia,Peer-reviewed geotechnical and hazard chain papers,Scientific Journal Publications (DOI),Peer-Reviewed Scientific,SCIENTIFICALLY_REPORTED

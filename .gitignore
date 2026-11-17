@@ -1,4 +1,4 @@
-# System files
+# System artifacts
 .DS_Store
 Thumbs.db
 desktop.ini
@@ -9,8 +9,10 @@ __pycache__/
 .vscode/
 .idea/
 
-# Large model binaries (datasets only repo)
+# Binaries / Weights
 *.pt
 *.safetensors
 *.bin
 *.onnx
+*.db
+*.sqlite
