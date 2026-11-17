@@ -1,0 +1,269 @@
+{
+  "NASA": [
+    {
+      "mission": "Landsat-9",
+      "sensor": "OLI-2 / TIRS-2",
+      "resolution_m": 15.0,
+      "mode": "Optical Multispectral & Thermal",
+      "polarization": "None",
+      "daac_url": "https://search.earthdata.nasa.gov/search?q=LANDSAT_OT_C2_L2",
+      "phases": [
+        "T_MINUS_30D_BASELINE",
+        "T_PLUS_3D_RAPID_RESPONSE",
+        "T_PLUS_30D_RECOVERY"
+      ],
+      "products": [
+        "High-Resolution Scar Mapping",
+        "NDWI Lake Water Surface Boundary",
+        "Thermal Discontinuity Anomaly"
+      ]
+    },
+    {
+      "mission": "Landsat-8",
+      "sensor": "OLI / TIRS",
+      "resolution_m": 30.0,
+      "mode": "Optical Multispectral",
+      "polarization": "None",
+      "daac_url": "https://search.earthdata.nasa.gov/search?q=LANDSAT_8_C2_L2",
+      "phases": [
+        "T_MINUS_30D_BASELINE",
+        "T_MINUS_7D_PRECURSOR",
+        "T_PLUS_30D_RECOVERY"
+      ],
+      "products": [
+        "Pre-Slide Colluvial Mantle Inspection",
+        "Vegetation Stress Anomaly",
+        "Post-Event Debris Fan Mapping"
+      ]
+    },
+    {
+      "mission": "GPM Core Observatory",
+      "sensor": "DPR / GMI",
+      "resolution_m": 10000.0,
+      "mode": "Dual-frequency Precipitation Radar & Microwave Imager",
+      "polarization": "None",
+      "daac_url": "https://gpm.nasa.gov/data/imerg",
+      "phases": [
+        "T_MINUS_7D_PRECURSOR",
+        "T_ZERO_CO_EVENT"
+      ],
+      "products": [
+        "IMERG Early Run Half-Hourly Rain Rate",
+        "IMERG Final 72h Antecedent Rainfall Accumulation",
+        "Convective Storm Cell Inundation Vector"
+      ]
+    },
+    {
+      "mission": "Terra / Aqua",
+      "sensor": "MODIS",
+      "resolution_m": 250.0,
+      "mode": "Optical Surface Reflectance & Thermal",
+      "polarization": "None",
+      "daac_url": "https://ladsweb.modaps.eosdis.nasa.gov/",
+      "phases": [
+        "T_MINUS_7D_PRECURSOR",
+        "T_ZERO_CO_EVENT",
+        "T_PLUS_3D_RAPID_RESPONSE"
+      ],
+      "products": [
+        "Daily River Plume Sediment Turbidity",
+        "Snow Water Equivalent (MOD10A1)",
+        "Thermal Anomaly & Lake Surface Temperature"
+      ]
+    },
+    {
+      "mission": "Suomi NPP / NOAA-20",
+      "sensor": "VIIRS",
+      "resolution_m": 375.0,
+      "mode": "Visible Infrared Imaging Radiometer Suite",
+      "polarization": "None",
+      "daac_url": "https://earthdata.nasa.gov/sensors/viirs",
+      "phases": [
+        "T_ZERO_CO_EVENT",
+        "T_PLUS_3D_RAPID_RESPONSE"
+      ],
+      "products": [
+        "Day/Night Band Power Grid Disruption",
+        "Rapid Flood Inundation Delineation",
+        "Thermal Hotspot & Fire/Blast Signature"
+      ]
+    },
+    {
+      "mission": "SRTM / NASADEM",
+      "sensor": "C-band InSAR",
+      "resolution_m": 30.0,
+      "mode": "Interferometric Synthetic Aperture Radar",
+      "polarization": "HH",
+      "daac_url": "https://lpdaac.usgs.gov/products/nasadem_hgtv001/",
+      "phases": [
+        "T_MINUS_30D_BASELINE"
+      ],
+      "products": [
+        "Baseline Digital Elevation Model (DEM)",
+        "Hillslope Inclination & Aspect Rasters",
+        "Hydrological Drainage Flow Direction Matrix"
+      ]
+    }
+  ],
+  "ISRO": [
+    {
+      "mission": "RISAT-1A (EOS-04)",
+      "sensor": "C-band SAR",
+      "resolution_m": 3.0,
+      "mode": "Synthetic Aperture Radar (All-Weather Cloud Penetrating)",
+      "polarization": "HH+HV",
+      "daac_url": "https://www.nrsc.gov.in/Earth_Observation_Satellite_EOS04",
+      "phases": [
+        "T_MINUS_7D_PRECURSOR",
+        "T_ZERO_CO_EVENT",
+        "T_PLUS_3D_RAPID_RESPONSE"
+      ],
+      "products": [
+        "All-Weather Flood Inundation Extent",
+        "SAR Backscatter Difference Scar Mask",
+        "Ground Coherence Loss Matrix"
+      ]
+    },
+    {
+      "mission": "Cartosat-3",
+      "sensor": "PAN / MX",
+      "resolution_m": 0.28,
+      "mode": "Sub-Meter High-Resolution Optical Stereo",
+      "polarization": "None",
+      "daac_url": "https://bhuvan-app1.nrsc.gov.in/disaster/disaster.php",
+      "phases": [
+        "T_MINUS_30D_BASELINE",
+        "T_PLUS_3D_RAPID_RESPONSE",
+        "T_PLUS_30D_RECOVERY"
+      ],
+      "products": [
+        "Sub-Meter Post-Disaster Building Damage Assessment",
+        "Stereo High-Resolution DEM (dDEM Volume Loss Calculation)",
+        "Bridge & Road Severance Verification"
+      ]
+    },
+    {
+      "mission": "Cartosat-2 Series",
+      "sensor": "Panchromatic & Multispectral",
+      "resolution_m": 0.8,
+      "mode": "High-Resolution Optical",
+      "polarization": "None",
+      "daac_url": "https://bhuvan.nrsc.gov.in/cartosat",
+      "phases": [
+        "T_MINUS_30D_BASELINE",
+        "T_PLUS_30D_RECOVERY"
+      ],
+      "products": [
+        "Baseline Urban & Cadastral Vulnerability Layer",
+        "Post-Event Landslide Crown Scarp Delineation",
+        "Sediment Choke Point Tracking"
+      ]
+    },
+    {
+      "mission": "Resourcesat-2A",
+      "sensor": "LISS-IV / AWiFS",
+      "resolution_m": 5.8,
+      "mode": "Multispectral Optical",
+      "polarization": "None",
+      "daac_url": "https://bhuvan.nrsc.gov.in/data/download/",
+      "phases": [
+        "T_MINUS_30D_BASELINE",
+        "T_MINUS_7D_PRECURSOR",
+        "T_PLUS_3D_RAPID_RESPONSE"
+      ],
+      "products": [
+        "Agricultural Land Submersion Delineation",
+        "Riverbank Toe Erosion Detection",
+        "Riparian Buffer Loss Mapping"
+      ]
+    },
+    {
+      "mission": "INSAT-3D / 3DR",
+      "sensor": "Imager / Sounder",
+      "resolution_m": 1000.0,
+      "mode": "Geostationary Meteorological Rapid-Scan",
+      "polarization": "None",
+      "daac_url": "https://www.mosdac.gov.in/insat-3d-3dr",
+      "phases": [
+        "T_MINUS_7D_PRECURSOR",
+        "T_ZERO_CO_EVENT"
+      ],
+      "products": [
+        "Hydro-Estimator Rainfall Rate (HEM)",
+        "Cloud Top Temperature (CTT) Convective Tracking",
+        "Atmospheric Water Vapor Flux Vector"
+      ]
+    }
+  ],
+  "JAXA": [
+    {
+      "mission": "ALOS-2",
+      "sensor": "PALSAR-2",
+      "resolution_m": 3.0,
+      "mode": "L-band Synthetic Aperture Radar (Canopy & Soil Penetrating)",
+      "polarization": "HH+HV",
+      "daac_url": "https://www.eorc.jaxa.jp/ALOS-2/en/index.htm",
+      "phases": [
+        "T_MINUS_30D_BASELINE",
+        "T_ZERO_CO_EVENT",
+        "T_PLUS_3D_RAPID_RESPONSE",
+        "T_PLUS_30D_RECOVERY"
+      ],
+      "products": [
+        "Differential InSAR (DInSAR) Co-Seismic Surface Deformation",
+        "Vegetation-Penetrating Sub-Centimeter Creep Interrogation",
+        "Damage Proxy Map (DPM) Phase Decorrelation"
+      ]
+    },
+    {
+      "mission": "ALOS PRISM / AW3D30",
+      "sensor": "PRISM",
+      "resolution_m": 5.0,
+      "mode": "Stereo Triplet Panchromatic",
+      "polarization": "None",
+      "daac_url": "https://www.eorc.jaxa.jp/ALOS/en/aw3d30/",
+      "phases": [
+        "T_MINUS_30D_BASELINE",
+        "T_PLUS_30D_RECOVERY"
+      ],
+      "products": [
+        "5m Global Digital Surface Model (AW3D30)",
+        "Valley Gorge Volume Capacity Estimation",
+        "Post-Failure dDEM Mass Balance Calculation"
+      ]
+    },
+    {
+      "mission": "GSMaP (Global Satellite Mapping of Precipitation)",
+      "sensor": "Microwave-IR Combined Precipitation System",
+      "resolution_m": 10000.0,
+      "mode": "Multi-Satellite Microwave & GEO IR",
+      "polarization": "None",
+      "daac_url": "https://sharaku.eorc.jaxa.jp/GSMaP/",
+      "phases": [
+        "T_MINUS_7D_PRECURSOR",
+        "T_ZERO_CO_EVENT"
+      ],
+      "products": [
+        "GSMaP Nowcast Hourly Rainfall Field",
+        "Himalayan Meso-Scale Convective Dump Delineation",
+        "High-Altitude Orographic Precipitation Anomaly"
+      ]
+    },
+    {
+      "mission": "Himawari-8 / Himawari-9",
+      "sensor": "AHI (Advanced Himawari Imager)",
+      "resolution_m": 500.0,
+      "mode": "Geostationary 16-Band Rapid Refresh (10-Minute Cadence)",
+      "polarization": "None",
+      "daac_url": "https://www.eorc.jaxa.jp/ptree/",
+      "phases": [
+        "T_ZERO_CO_EVENT"
+      ],
+      "products": [
+        "10-Minute Rapid-Scan Convective Cloud Burst Life-Cycle",
+        "Deep Convective Cloud-Top Overshooting Tops",
+        "Real-Time Severe Weather Warning Track"
+      ]
+    }
+  ]
+}
