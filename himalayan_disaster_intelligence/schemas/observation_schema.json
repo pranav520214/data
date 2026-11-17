@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AtomicDisasterObservation",
+  "type": "object",
+  "required": [
+    "event_id",
+    "observation_id",
+    "domain",
+    "factor",
+    "value",
+    "unit",
+    "source",
+    "confidence_level",
+    "verification_status"
+  ],
+  "properties": {
+    "event_id": { "type": "string" },
+    "observation_id": { "type": "string" },
+    "domain": { 
+      "type": "string",
+      "enum": ["TERRAIN", "ENVIRONMENTAL", "TRIGGER_MECHANISM", "IMPACTS", "WARNING_RESPONSE", "LESSONS"]
+    },
+    "factor": { "type": "string" },
+    "value": { "type": ["string", "number", "boolean", "null"] },
+    "unit": { "type": ["string", "null"] },
+    "source": { "type": "string" },
+    "source_page_section": { "type": ["string", "null"] },
+    "observation_date": { "type": "string" },
+    "confidence_level": {
+      "type": "string",
+      "enum": [
+        "VERIFIED_PRIMARY_SOURCE",
+        "MULTI_SOURCE_CORROBORATED",
+        "SCIENTIFICALLY_REPORTED",
+        "SECONDARY_SOURCE_ONLY",
+        "UNVERIFIED",
+        "CONFLICTING_EVIDENCE"
+      ]
+    },
+    "verification_status": { "type": "string" }
+  }
+}

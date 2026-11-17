@@ -1,0 +1,134 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "HimalayanDisasterEvent",
+  "type": "object",
+  "required": [
+    "event_id",
+    "identification",
+    "terrain",
+    "environmental_conditions",
+    "trigger_and_mechanism",
+    "impacts",
+    "warning_and_response",
+    "lessons",
+    "data_quality"
+  ],
+  "properties": {
+    "event_id": { "type": "string" },
+    "identification": {
+      "type": "object",
+      "required": ["event_name", "country", "state_province", "district", "latitude", "longitude", "river_basin", "event_date"],
+      "properties": {
+        "event_name": { "type": "string" },
+        "country": { "type": "string" },
+        "state_province": { "type": "string" },
+        "district": { "type": "string" },
+        "latitude": { "type": "number" },
+        "longitude": { "type": "number" },
+        "river_basin": { "type": "string" },
+        "event_date": { "type": "string" },
+        "event_duration_hours": { "type": ["number", "null"] }
+      }
+    },
+    "terrain": {
+      "type": "object",
+      "properties": {
+        "elevation_m": { "type": ["number", "null"] },
+        "slope_degrees": { "type": ["number", "null"] },
+        "aspect": { "type": ["string", "null"] },
+        "geology": { "type": ["string", "null"] },
+        "soil_characteristics": { "type": ["string", "null"] },
+        "drainage_pattern": { "type": ["string", "null"] },
+        "river_channel_characteristics": { "type": ["string", "null"] },
+        "mountain_terrain_classification": { "type": "string" }
+      }
+    },
+    "environmental_conditions": {
+      "type": "object",
+      "properties": {
+        "rainfall_24h_mm": { "type": ["number", "null"] },
+        "rainfall_antecedent_72h_mm": { "type": ["number", "null"] },
+        "temperature_c": { "type": ["number", "null"] },
+        "snowmelt_conditions": { "type": ["string", "null"] },
+        "glacier_conditions": { "type": ["string", "null"] },
+        "lake_area_m2": { "type": ["number", "null"] },
+        "lake_volume_m3": { "type": ["number", "null"] },
+        "lake_expansion_rate": { "type": ["string", "null"] },
+        "moraine_characteristics": { "type": ["string", "null"] },
+        "vegetation_and_land_cover": { "type": ["string", "null"] }
+      }
+    },
+    "trigger_and_mechanism": {
+      "type": "object",
+      "required": ["primary_trigger", "physical_mechanism", "hazard_category"],
+      "properties": {
+        "primary_trigger": { "type": "string" },
+        "secondary_triggers": { "type": "array", "items": { "type": "string" } },
+        "initiating_event": { "type": "string" },
+        "physical_mechanism": { "type": "string" },
+        "hazard_category": { "type": "string" },
+        "causal_sequence": { "type": "array", "items": { "type": "string" } },
+        "cascading_hazards": { "type": "array", "items": { "type": "string" } },
+        "contributing_factors": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "impacts": {
+      "type": "object",
+      "properties": {
+        "fatalities": { "type": ["integer", "null"] },
+        "injuries": { "type": ["integer", "null"] },
+        "displaced_population": { "type": ["integer", "null"] },
+        "houses_damaged": { "type": ["integer", "null"] },
+        "roads_damaged_km": { "type": ["number", "null"] },
+        "bridges_damaged": { "type": ["integer", "null"] },
+        "hydropower_damage_mw": { "type": ["number", "null"] },
+        "agricultural_losses_hectares": { "type": ["number", "null"] },
+        "communication_disruption": { "type": ["string", "null"] },
+        "environmental_impacts": { "type": ["string", "null"] }
+      }
+    },
+    "warning_and_response": {
+      "type": "object",
+      "properties": {
+        "early_warning_availability": { "type": "boolean" },
+        "observed_warning_indicators": { "type": "array", "items": { "type": "string" } },
+        "warning_lead_time_minutes": { "type": ["number", "null"] },
+        "evacuation_information": { "type": ["string", "null"] },
+        "response_measures": { "type": ["string", "null"] },
+        "infrastructure_protection": { "type": ["string", "null"] },
+        "documented_response_gaps": { "type": ["string", "null"] }
+      }
+    },
+    "lessons": {
+      "type": "object",
+      "properties": {
+        "what_happened": { "type": "string" },
+        "why_did_it_happen": { "type": "string" },
+        "observable_indicators": { "type": "string" },
+        "overlooked_factors": { "type": "string" },
+        "mitigation_measures": { "type": "string" },
+        "unavailable_information": { "type": "string" },
+        "terrain_comparability_lessons": { "type": "string" }
+      }
+    },
+    "data_quality": {
+      "type": "object",
+      "required": ["confidence_label", "verification_status", "sources"],
+      "properties": {
+        "confidence_label": {
+          "type": "string",
+          "enum": [
+            "VERIFIED_PRIMARY_SOURCE",
+            "MULTI_SOURCE_CORROBORATED",
+            "SCIENTIFICALLY_REPORTED",
+            "SECONDARY_SOURCE_ONLY",
+            "UNVERIFIED",
+            "CONFLICTING_EVIDENCE"
+          ]
+        },
+        "verification_status": { "type": "string" },
+        "sources": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

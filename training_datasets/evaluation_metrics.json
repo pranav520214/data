@@ -1,0 +1,103 @@
+{
+  "evaluation_dataset": "disaster-intelligence/training/test.jsonl",
+  "sample_count": 158,
+  "classes": [
+    "Glacial Lake Outburst Flood (GLOF)",
+    "Cloudburst-Induced Flash Flood",
+    "Rainfall-Triggered Landslide",
+    "Debris Flow",
+    "Landslide-Dammed River",
+    "Rock Avalanche",
+    "Earthquake-Triggered Landslide",
+    "Compound Flood and Landslide Event"
+  ],
+  "overall_metrics": {
+    "top1_accuracy_pct": 21.52,
+    "top2_accuracy_pct": 39.87,
+    "expected_calibration_error_ece": 0.0555,
+    "brier_score": 0.8632,
+    "random_baseline_top1_pct": 12.5,
+    "random_baseline_top2_pct": 25.0
+  },
+  "critical_physics_subset": {
+    "count": 95,
+    "top1_accuracy_pct": 10.53,
+    "top2_accuracy_pct": 33.68
+  },
+  "per_class_stats": [
+    {
+      "class_name": "Glacial Lake Outburst Flood (GLOF)",
+      "short_name": "GLOF",
+      "support": 21,
+      "predicted_count": 43,
+      "recall_pct": 85.7,
+      "precision_pct": 41.9,
+      "f1_score": 0.563
+    },
+    {
+      "class_name": "Cloudburst-Induced Flash Flood",
+      "short_name": "Cloudburst Flood",
+      "support": 19,
+      "predicted_count": 0,
+      "recall_pct": 0.0,
+      "precision_pct": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "class_name": "Rainfall-Triggered Landslide",
+      "short_name": "Rainfall Slide",
+      "support": 15,
+      "predicted_count": 33,
+      "recall_pct": 26.7,
+      "precision_pct": 12.1,
+      "f1_score": 0.167
+    },
+    {
+      "class_name": "Debris Flow",
+      "short_name": "Debris Flow",
+      "support": 21,
+      "predicted_count": 2,
+      "recall_pct": 0.0,
+      "precision_pct": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "class_name": "Landslide-Dammed River",
+      "short_name": "Landslide Dam",
+      "support": 28,
+      "predicted_count": 38,
+      "recall_pct": 25.0,
+      "precision_pct": 18.4,
+      "f1_score": 0.212
+    },
+    {
+      "class_name": "Rock Avalanche",
+      "short_name": "Rock Avalanche",
+      "support": 20,
+      "predicted_count": 7,
+      "recall_pct": 5.0,
+      "precision_pct": 14.3,
+      "f1_score": 0.074
+    },
+    {
+      "class_name": "Earthquake-Triggered Landslide",
+      "short_name": "EQ Slide",
+      "support": 16,
+      "predicted_count": 0,
+      "recall_pct": 0.0,
+      "precision_pct": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "class_name": "Compound Flood and Landslide Event",
+      "short_name": "Compound Event",
+      "support": 18,
+      "predicted_count": 35,
+      "recall_pct": 22.2,
+      "precision_pct": 11.4,
+      "f1_score": 0.151
+    }
+  ],
+  "high_confidence_errors_count": 0,
+  "safe_uncertainty_count": 124
+}

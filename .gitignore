@@ -1,0 +1,16 @@
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python / IDE
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+
+# Large model binaries (datasets only repo)
+*.pt
+*.safetensors
+*.bin
+*.onnx

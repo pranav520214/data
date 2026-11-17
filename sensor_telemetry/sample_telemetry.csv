@@ -1,0 +1,10 @@
+# NOTICE: THIS IS A CLEARLY LABELLED SYNTHETIC DATASET FOR BENCHTOP CALIBRATION TESTING ONLY.
+# IT DOES NOT REPRESENT REAL MOUNTAIN-SCALE GEOLOGICAL FIELD MEASUREMENTS.
+experiment_id,timestamp_iso,soil_type,slope_angle_deg,rainfall_rate_ml_min,moisture_crest_pct,moisture_mid_pct,moisture_toe_pct,imu_accel_x_g,imu_accel_y_g,imu_accel_z_g,imu_pitch_deg,imu_roll_deg,vibration_rms_g,runoff_rate_ml_min,visible_displacement_mm,experimental_state,sensor_fault_flag
+EXP_001_SYNTH,2026-11-04T10:00:00Z,sandy_loam,30.0,0.0,12.4,14.1,15.0,0.01,0.50,0.86,30.0,0.2,0.002,0.0,0.0,NORMAL,0
+EXP_001_SYNTH,2026-11-04T10:05:00Z,sandy_loam,30.0,15.0,28.2,32.4,41.2,0.02,0.50,0.86,30.1,0.2,0.004,1.2,0.0,NORMAL,0
+EXP_001_SYNTH,2026-11-04T10:10:00Z,sandy_loam,30.0,25.0,52.1,64.8,78.5,0.03,0.51,0.85,30.4,0.3,0.012,8.5,0.5,WATCH,0
+EXP_001_SYNTH,2026-11-04T10:15:00Z,sandy_loam,30.0,35.0,79.4,88.2,96.1,0.08,0.55,0.82,32.1,1.1,0.045,22.0,3.2,WARNING,0
+EXP_001_SYNTH,2026-11-04T10:16:30Z,sandy_loam,30.0,35.0,85.2,94.0,99.8,0.34,0.78,0.51,48.6,4.5,0.185,31.5,24.0,SLOPE_FAILURE,0
+EXP_002_SYNTH,2026-11-04T11:00:00Z,clayey_sand,25.0,0.0,18.0,19.2,21.0,0.01,0.42,0.90,25.0,0.1,0.001,0.0,0.0,NORMAL,0
+EXP_002_SYNTH,2026-11-04T11:08:00Z,clayey_sand,25.0,20.0,44.5,51.0,68.2,-999.0,0.42,0.90,25.0,0.1,0.003,3.0,0.0,SENSOR_FAULT,1

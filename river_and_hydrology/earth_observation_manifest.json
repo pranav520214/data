@@ -1,0 +1,146 @@
+[
+  {
+    "checksum": "sha256:766380ae3ee68ecc88a01016aacc8282614f0f3b05732f7e77ab01123f85173b",
+    "dataset_name": "copernicus_dem_glo30",
+    "file_format": "geotiff",
+    "geographic_extent": {
+      "crs": "EPSG:4326",
+      "max_lat": 33.5,
+      "max_lon": 79.5,
+      "min_lat": 27.5,
+      "min_lon": 73.5
+    },
+    "licence": "Copernicus Sentinel Data Terms",
+    "observation_end": "2021-12-31T23:59:59Z",
+    "observation_start": "2021-01-01T00:00:00Z",
+    "processing_status": "mock_generated",
+    "retrieval_timestamp": "2026-11-13T12:41:22Z",
+    "source_url": "s3://copernicus-dem-30m/"
+  },
+  {
+    "checksum": "sha256:4a039c9823c198bdc7fa3f04bec87193fa46080032ca240179bc7bccebb6ceb8",
+    "dataset_name": "esa_worldcover_10m",
+    "file_format": "geotiff",
+    "geographic_extent": {
+      "crs": "EPSG:4326",
+      "max_lat": 33.5,
+      "max_lon": 79.5,
+      "min_lat": 27.5,
+      "min_lon": 73.5
+    },
+    "licence": "CC BY 4.0",
+    "observation_end": "2021-12-31T23:59:59Z",
+    "observation_start": "2021-01-01T00:00:00Z",
+    "processing_status": "mock_generated",
+    "retrieval_timestamp": "2026-11-13T12:41:22Z",
+    "source_url": "s3://esa-worldcover/v200/2021/map/"
+  },
+  {
+    "checksum": "sha256:1e7422077ba372c3cd109f0437fa18250ef0d23b1890de42d1550da5e43285cf",
+    "dataset_name": "era5_land_hourly",
+    "file_format": "netcdf4",
+    "geographic_extent": {
+      "crs": "EPSG:4326",
+      "max_lat": 33.5,
+      "max_lon": 79.5,
+      "min_lat": 27.5,
+      "min_lon": 73.5
+    },
+    "licence": "Copernicus Open Licence",
+    "observation_end": "2023-07-03T23:00:00Z",
+    "observation_start": "2023-07-01T00:00:00Z",
+    "processing_status": "mock_generated",
+    "retrieval_timestamp": "2026-11-13T12:41:22Z",
+    "source_url": "https://cds.climate.copernicus.eu/api/reanalysis-era5-land"
+  },
+  {
+    "checksum": "sha256:a98cbba34408c6e03db4b17e96fae82888f3550f7fdaf4aeaa953001c13fd365",
+    "dataset_name": "gpm_imerg_v07_final",
+    "file_format": "hdf5",
+    "geographic_extent": {
+      "crs": "EPSG:4326",
+      "max_lat": 33.5,
+      "max_lon": 79.5,
+      "min_lat": 27.5,
+      "min_lon": 73.5
+    },
+    "licence": "NASA Open Data Policy",
+    "observation_end": "2023-07-10T06:29:59Z",
+    "observation_start": "2023-07-10T06:00:00Z",
+    "processing_status": "mock_generated",
+    "retrieval_timestamp": "2026-11-13T12:41:22Z",
+    "source_url": "https://gpm1.gesdisc.eosdis.nasa.gov/data/GPM_L3/GPM_3IMERGHH.07/"
+  },
+  {
+    "checksum": "sha256:bbaeab089fd0220cf28d228a66a9b3572d057395fc3720da9983f620a8d91f4a",
+    "dataset_name": "mosdac_insat3d_hem",
+    "file_format": "hdf5",
+    "geographic_extent": {
+      "crs": "EPSG:4326",
+      "max_lat": 33.5,
+      "max_lon": 79.5,
+      "min_lat": 27.5,
+      "min_lon": 73.5
+    },
+    "licence": "ISRO Research License",
+    "observation_end": "2023-07-10T06:30:00Z",
+    "observation_start": "2023-07-10T06:00:00Z",
+    "processing_status": "mock_generated",
+    "retrieval_timestamp": "2026-11-13T12:41:22Z",
+    "source_url": "https://www.mosdac.gov.in/api/3RIMG_L2B_HEM"
+  },
+  {
+    "checksum": "sha256:a23e460185e20921607461b52d64e7c7e032439508aa7c7a59ef19646275078f",
+    "dataset_name": "cwc_river_telemetry",
+    "file_format": "csv",
+    "geographic_extent": {
+      "crs": "EPSG:4326",
+      "max_lat": 33.5,
+      "max_lon": 79.5,
+      "min_lat": 27.5,
+      "min_lon": 73.5
+    },
+    "licence": "NDSAP Open Access",
+    "observation_end": "2023-07-15T23:59:59Z",
+    "observation_start": "2023-07-01T00:00:00Z",
+    "processing_status": "mock_generated",
+    "retrieval_timestamp": "2026-11-13T12:41:22Z",
+    "source_url": "https://indiawris.gov.in/wris/"
+  },
+  {
+    "checksum": "sha256:8327118c1f70c25f3257735273c72a4eccc33f00907afaa32595df51afdb3fa6",
+    "dataset_name": "ndma_disaster_events",
+    "file_format": "csv",
+    "geographic_extent": {
+      "crs": "EPSG:4326",
+      "max_lat": 33.5,
+      "max_lon": 79.5,
+      "min_lat": 27.5,
+      "min_lon": 73.5
+    },
+    "licence": "Open Government Data",
+    "observation_end": "2023-12-31T23:59:59Z",
+    "observation_start": "2023-01-01T00:00:00Z",
+    "processing_status": "mock_generated",
+    "retrieval_timestamp": "2026-11-13T12:41:22Z",
+    "source_url": "https://ndma.gov.in/disaster-records"
+  },
+  {
+    "checksum": "sha256:d92045dcc367993962a2e6d78e3ee5bf2c025f2b999dcfe3d40b5a80aff5167d",
+    "dataset_name": "imd_gridded_daily",
+    "file_format": "netcdf4",
+    "geographic_extent": {
+      "crs": "EPSG:4326",
+      "max_lat": 33.5,
+      "max_lon": 79.5,
+      "min_lat": 27.5,
+      "min_lon": 73.5
+    },
+    "licence": "NDSAP Open Access",
+    "observation_end": "2023-07-31T23:59:59Z",
+    "observation_start": "2023-07-01T00:00:00Z",
+    "processing_status": "mock_generated",
+    "retrieval_timestamp": "2026-11-13T12:41:22Z",
+    "source_url": "https://dsp.imdpune.gov.in/"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CausalRelationship",
+  "type": "object",
+  "required": [
+    "relationship_id",
+    "event_id",
+    "source_entity",
+    "relationship_type",
+    "target_entity",
+    "causality_certainty",
+    "evidence_text",
+    "source"
+  ],
+  "properties": {
+    "relationship_id": { "type": "string" },
+    "event_id": { "type": "string" },
+    "source_entity": { "type": "string" },
+    "relationship_type": { 
+      "type": "string",
+      "enum": [
+        "TRIGGERS",
+        "CAUSES_BREACH_OF",
+        "INDUCES_FAILURE_OF",
+        "DAM_BREACH_RELEASES",
+        "GENERATES_DEBRIS_FLOW_INTO",
+        "BLOCKS_RIVER_CHANNEL_AT",
+        "CAUSES_OVERTOPPING_OF",
+        "ERODES_TOE_OF",
+        "EXACERBATES_INSTABILITY_OF",
+        "IMPACTS_INFRASTRUCTURE",
+        "CASCADES_INTO"
+      ]
+    },
+    "target_entity": { "type": "string" },
+    "causality_certainty": {
+      "type": "string",
+      "enum": ["OBSERVED_DIRECT_CAUSATION", "GEOLOGICALLY_INFERRED", "PROPOSED_HYPOTHESIS", "CONFLICTING_THEORIES"]
+    },
+    "evidence_text": { "type": "string" },
+    "source": { "type": "string" }
+  }
+}

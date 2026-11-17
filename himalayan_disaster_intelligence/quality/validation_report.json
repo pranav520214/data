@@ -1,0 +1,10 @@
+{
+  "schema_compliance_rate_pct": 100.0,
+  "georeferenced_events_pct": 100.0,
+  "temporal_consistency_pct": 100.0,
+  "confidence_distribution": {
+    "VERIFIED_PRIMARY_SOURCE": 329,
+    "MULTI_SOURCE_CORROBORATED": 351,
+    "SCIENTIFICALLY_REPORTED": 370
+  }
+}

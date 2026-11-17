@@ -1,0 +1,121 @@
+event_id,state,district,hazard_category,start_time_utc,end_time_utc,severity,fatalities,injuries,displaced_persons,economic_damage_lakh_inr,source_agency,verified_status
+MHIM_EVT_2023_0107,Haryana,Charkhi Dadri,cold_waves,2023-01-01T10:00:00Z,2023-01-01T22:00:00Z,moderate,0,0,0,66.11,DDMA_Haryana,verified
+MHIM_EVT_2023_0074,Haryana,Jhajjar,cold_waves,2023-01-01T12:00:00Z,2023-01-04T12:00:00Z,severe,0,0,0,5.39,DDMA_Haryana,verified
+MHIM_EVT_2023_0111,Punjab,Mansa,cold_waves,2023-01-02T14:00:00Z,2023-01-05T14:00:00Z,very_severe,0,0,0,108.1,DDMA_Punjab,verified
+MHIM_EVT_2023_0044,Haryana,Bhiwani,cold_waves,2023-01-04T01:00:00Z,2023-01-04T07:00:00Z,very_severe,0,0,0,126.92,DDMA_Haryana,verified
+MHIM_EVT_2023_0043,Punjab,Tarn Taran,cold_waves,2023-01-08T09:00:00Z,2023-01-10T09:00:00Z,moderate,0,0,0,5.09,DDMA_Punjab,verified
+MHIM_EVT_2023_0049,Punjab,Fatehgarh Sahib,cold_waves,2023-01-08T14:00:00Z,2023-01-08T17:00:00Z,severe,2,2,0,5.04,DDMA_Punjab,verified
+MHIM_EVT_2023_0109,Haryana,Jind,cold_waves,2023-01-13T08:00:00Z,2023-01-13T20:00:00Z,moderate,0,0,0,30.76,DDMA_Haryana,verified
+MHIM_EVT_2023_0079,Himachal Pradesh,Kinnaur,cold_waves,2023-01-17T19:00:00Z,2023-01-18T07:00:00Z,severe,0,0,0,14.62,SEOC_HP,verified
+MHIM_EVT_2023_0076,Himachal Pradesh,Bilaspur,cold_waves,2023-01-19T21:00:00Z,2023-01-21T21:00:00Z,moderate,0,0,0,15.39,SEOC_HP,verified
+MHIM_EVT_2023_0021,Himachal Pradesh,Bilaspur,cold_waves,2023-01-24T17:00:00Z,2023-01-25T17:00:00Z,severe,0,0,0,34.35,SEOC_HP,verified
+MHIM_EVT_2023_0026,Himachal Pradesh,Kinnaur,hailstorms,2023-03-03T07:00:00Z,2023-03-03T19:00:00Z,moderate,0,0,0,5.8,SEOC_HP,verified
+MHIM_EVT_2023_0080,Himachal Pradesh,Sirmaur,thunderstorms,2023-03-13T16:00:00Z,2023-03-16T16:00:00Z,severe,0,0,0,31.83,SEOC_HP,verified
+MHIM_EVT_2023_0104,Himachal Pradesh,Chamba,hailstorms,2023-03-17T14:00:00Z,2023-03-18T14:00:00Z,severe,0,0,0,28.84,SEOC_HP,verified
+MHIM_EVT_2023_0102,Haryana,Yamunanagar,thunderstorms,2023-03-21T22:00:00Z,2023-03-22T22:00:00Z,moderate,0,0,0,26.8,DDMA_Haryana,verified
+MHIM_EVT_2023_0054,Haryana,Kaithal,thunderstorms,2023-03-24T00:00:00Z,2023-03-24T03:00:00Z,moderate,0,0,0,72.23,DDMA_Haryana,verified
+MHIM_EVT_2023_0031,Himachal Pradesh,Mandi,hailstorms,2023-03-24T14:00:00Z,2023-03-25T14:00:00Z,moderate,0,0,0,42.0,SEOC_HP,verified
+MHIM_EVT_2023_0028,Haryana,Sonipat,thunderstorms,2023-03-25T07:00:00Z,2023-03-27T07:00:00Z,moderate,0,0,0,30.05,DDMA_Haryana,verified
+MHIM_EVT_2023_0083,Haryana,Faridabad,hailstorms,2023-03-27T07:00:00Z,2023-03-27T13:00:00Z,very_severe,0,0,0,160.21,DDMA_Haryana,verified
+MHIM_EVT_2023_0006,Haryana,Rohtak,thunderstorms,2023-04-01T09:00:00Z,2023-04-01T21:00:00Z,moderate,0,0,0,29.59,DDMA_Haryana,verified
+MHIM_EVT_2023_0016,Haryana,Rewari,thunderstorms,2023-04-03T17:00:00Z,2023-04-04T17:00:00Z,severe,0,0,0,19.37,DDMA_Haryana,verified
+MHIM_EVT_2023_0007,Punjab,Fazilka,thunderstorms,2023-04-04T18:00:00Z,2023-04-04T21:00:00Z,severe,0,0,0,12.94,DDMA_Punjab,verified
+MHIM_EVT_2023_0097,Haryana,Rohtak,hailstorms,2023-04-05T03:00:00Z,2023-04-05T06:00:00Z,moderate,1,2,0,26.23,DDMA_Haryana,verified
+MHIM_EVT_2023_0040,Punjab,Hoshiarpur,thunderstorms,2023-04-05T18:00:00Z,2023-04-06T18:00:00Z,moderate,0,0,0,27.46,DDMA_Punjab,verified
+MHIM_EVT_2023_0009,Haryana,Charkhi Dadri,thunderstorms,2023-04-09T01:00:00Z,2023-04-11T01:00:00Z,moderate,0,0,0,17.54,DDMA_Haryana,verified
+MHIM_EVT_2023_0091,Himachal Pradesh,Bilaspur,thunderstorms,2023-04-11T23:00:00Z,2023-04-14T23:00:00Z,severe,0,0,0,7.28,SEOC_HP,verified
+MHIM_EVT_2023_0110,Himachal Pradesh,Una,thunderstorms,2023-04-15T12:00:00Z,2023-04-17T12:00:00Z,severe,0,0,0,31.21,SEOC_HP,verified
+MHIM_EVT_2023_0032,Punjab,Barnala,hailstorms,2023-04-18T19:00:00Z,2023-04-19T01:00:00Z,severe,12,36,0,17.72,DDMA_Punjab,verified
+MHIM_EVT_2023_0025,Punjab,Amritsar,thunderstorms,2023-04-22T05:00:00Z,2023-04-22T11:00:00Z,moderate,0,0,0,8.24,DDMA_Punjab,verified
+MHIM_EVT_2023_0048,Punjab,Malerkotla,heatwaves,2023-05-01T13:00:00Z,2023-05-02T13:00:00Z,very_severe,0,0,0,122.35,DDMA_Punjab,verified
+MHIM_EVT_2023_0095,Punjab,Bathinda,heatwaves,2023-05-01T14:00:00Z,2023-05-01T17:00:00Z,very_severe,0,0,0,141.65,DDMA_Punjab,verified
+MHIM_EVT_2023_0001,Punjab,Gurdaspur,heatwaves,2023-05-01T22:00:00Z,2023-05-03T22:00:00Z,moderate,0,0,0,26.82,DDMA_Punjab,verified
+MHIM_EVT_2023_0053,Punjab,Tarn Taran,heatwaves,2023-05-02T03:00:00Z,2023-05-02T06:00:00Z,severe,0,0,0,8.98,DDMA_Punjab,verified
+MHIM_EVT_2023_0094,Haryana,Sirsa,heatwaves,2023-05-02T08:00:00Z,2023-05-02T14:00:00Z,moderate,0,0,0,31.99,DDMA_Haryana,verified
+MHIM_EVT_2023_0015,Punjab,Mansa,thunderstorms,2023-05-03T12:00:00Z,2023-05-03T15:00:00Z,severe,1,2,0,54.16,DDMA_Punjab,verified
+MHIM_EVT_2023_0096,Haryana,Panchkula,heatwaves,2023-05-04T00:00:00Z,2023-05-04T06:00:00Z,severe,0,0,0,28.46,DDMA_Haryana,verified
+MHIM_EVT_2023_0106,Himachal Pradesh,Una,hailstorms,2023-05-05T07:00:00Z,2023-05-06T07:00:00Z,very_severe,1,2,0,125.6,SEOC_HP,verified
+MHIM_EVT_2023_0090,Punjab,Gurdaspur,thunderstorms,2023-05-05T20:00:00Z,2023-05-08T20:00:00Z,very_severe,0,0,0,107.29,DDMA_Punjab,verified
+MHIM_EVT_2023_0014,Haryana,Bhiwani,hailstorms,2023-05-06T08:00:00Z,2023-05-07T08:00:00Z,moderate,0,0,0,54.26,DDMA_Haryana,verified
+MHIM_EVT_2023_0035,Punjab,Faridkot,heatwaves,2023-05-08T12:00:00Z,2023-05-11T12:00:00Z,moderate,5,15,0,26.63,DDMA_Punjab,verified
+MHIM_EVT_2023_0065,Punjab,Ludhiana,heatwaves,2023-05-08T17:00:00Z,2023-05-10T17:00:00Z,moderate,1,1,0,28.95,DDMA_Punjab,verified
+MHIM_EVT_2023_0045,Himachal Pradesh,Shimla,hailstorms,2023-05-11T21:00:00Z,2023-05-14T21:00:00Z,severe,1,1,0,17.12,SEOC_HP,verified
+MHIM_EVT_2023_0064,Punjab,Tarn Taran,heatwaves,2023-05-12T15:00:00Z,2023-05-15T15:00:00Z,moderate,0,0,0,85.12,DDMA_Punjab,verified
+MHIM_EVT_2023_0113,Punjab,Ludhiana,heatwaves,2023-05-13T10:00:00Z,2023-05-13T16:00:00Z,moderate,2,4,0,43.27,DDMA_Punjab,verified
+MHIM_EVT_2023_0081,Haryana,Kurukshetra,hailstorms,2023-05-14T07:00:00Z,2023-05-17T07:00:00Z,severe,0,0,0,13.71,DDMA_Haryana,verified
+MHIM_EVT_2023_0075,Haryana,Faridabad,heatwaves,2023-05-17T13:00:00Z,2023-05-18T13:00:00Z,severe,0,0,0,9.77,DDMA_Haryana,verified
+MHIM_EVT_2023_0117,Haryana,Yamunanagar,thunderstorms,2023-05-18T17:00:00Z,2023-05-19T05:00:00Z,severe,0,0,0,33.86,DDMA_Haryana,verified
+MHIM_EVT_2023_0070,Punjab,Pathankot,heatwaves,2023-05-18T20:00:00Z,2023-05-19T08:00:00Z,moderate,0,0,0,140.63,DDMA_Punjab,verified
+MHIM_EVT_2023_0037,Haryana,Gurugram,heatwaves,2023-05-20T22:00:00Z,2023-05-21T10:00:00Z,moderate,0,0,0,32.91,DDMA_Haryana,verified
+MHIM_EVT_2023_0114,Punjab,Malerkotla,heatwaves,2023-05-21T09:00:00Z,2023-05-21T15:00:00Z,severe,0,0,0,23.0,DDMA_Punjab,verified
+MHIM_EVT_2023_0060,Punjab,Sahibzada Ajit Singh Nagar,hailstorms,2023-05-23T01:00:00Z,2023-05-25T01:00:00Z,moderate,0,0,0,97.02,DDMA_Punjab,verified
+MHIM_EVT_2023_0103,Haryana,Ambala,heatwaves,2023-05-26T17:00:00Z,2023-05-27T17:00:00Z,moderate,0,0,0,24.28,DDMA_Haryana,verified
+MHIM_EVT_2023_0089,Haryana,Rewari,heatwaves,2023-06-04T04:00:00Z,2023-06-04T16:00:00Z,moderate,0,0,0,36.92,DDMA_Haryana,verified
+MHIM_EVT_2023_0085,Haryana,Karnal,heatwaves,2023-06-05T17:00:00Z,2023-06-05T20:00:00Z,moderate,0,0,0,45.42,DDMA_Haryana,verified
+MHIM_EVT_2023_0030,Haryana,Hisar,heatwaves,2023-06-13T07:00:00Z,2023-06-16T07:00:00Z,moderate,0,0,0,9.98,DDMA_Haryana,verified
+MHIM_EVT_2023_0027,Haryana,Palwal,heatwaves,2023-06-15T16:00:00Z,2023-06-16T04:00:00Z,moderate,0,0,0,12.97,DDMA_Haryana,verified
+MHIM_EVT_2023_0033,Haryana,Gurugram,heatwaves,2023-06-16T15:00:00Z,2023-06-17T03:00:00Z,severe,2,6,0,13.48,DDMA_Haryana,verified
+MHIM_EVT_2023_0041,Haryana,Faridabad,heatwaves,2023-06-17T19:00:00Z,2023-06-18T19:00:00Z,severe,0,0,0,56.33,DDMA_Haryana,verified
+MHIM_EVT_2023_0029,Punjab,Bathinda,heatwaves,2023-06-20T22:00:00Z,2023-06-22T22:00:00Z,moderate,0,0,0,91.22,DDMA_Punjab,verified
+MHIM_EVT_2023_0003,Haryana,Mahendragarh,heatwaves,2023-06-25T05:00:00Z,2023-06-25T11:00:00Z,very_severe,0,0,0,154.28,DDMA_Haryana,verified
+MHIM_EVT_2023_0098,Himachal Pradesh,Kullu,landslides,2023-07-02T20:00:00Z,2023-07-05T20:00:00Z,severe,0,0,0,9.74,SEOC_HP,verified
+MHIM_EVT_2023_0013,Haryana,Ambala,extreme_rainfall,2023-07-03T13:00:00Z,2023-07-06T13:00:00Z,very_severe,0,0,0,112.69,DDMA_Haryana,verified
+MHIM_EVT_2023_0019,Punjab,Gurdaspur,extreme_rainfall,2023-07-03T17:00:00Z,2023-07-04T17:00:00Z,moderate,0,0,0,19.34,DDMA_Punjab,verified
+MHIM_EVT_2023_0010,Haryana,Panipat,floods,2023-07-04T16:00:00Z,2023-07-04T22:00:00Z,moderate,1,1,63,9.55,DDMA_Haryana,verified
+MHIM_EVT_2023_0105,Himachal Pradesh,Hamirpur,landslides,2023-07-05T02:00:00Z,2023-07-06T02:00:00Z,moderate,0,0,0,18.07,SEOC_HP,verified
+MHIM_EVT_2023_0101,Punjab,Amritsar,extreme_rainfall,2023-07-06T05:00:00Z,2023-07-08T05:00:00Z,severe,2,4,0,16.8,DDMA_Punjab,verified
+MHIM_EVT_2023_0100,Himachal Pradesh,Lahaul and Spiti,landslides,2023-07-07T18:00:00Z,2023-07-08T06:00:00Z,moderate,0,0,0,26.64,SEOC_HP,verified
+MHIM_EVT_2023_0059,Himachal Pradesh,Shimla,landslides,2023-07-08T14:00:00Z,2023-07-09T02:00:00Z,moderate,0,0,0,30.66,SEOC_HP,verified
+MHIM_EVT_2023_0069,Himachal Pradesh,Bilaspur,floods,2023-07-10T17:00:00Z,2023-07-11T17:00:00Z,moderate,0,0,0,11.41,SEOC_HP,verified
+MHIM_EVT_2023_0011,Himachal Pradesh,Solan,landslides,2023-07-10T19:00:00Z,2023-07-11T01:00:00Z,moderate,0,0,0,21.89,SEOC_HP,verified
+MHIM_EVT_2023_0052,Himachal Pradesh,Una,landslides,2023-07-11T07:00:00Z,2023-07-11T13:00:00Z,moderate,0,0,0,6.18,SEOC_HP,verified
+MHIM_EVT_2023_0099,Himachal Pradesh,Una,extreme_rainfall,2023-07-12T09:00:00Z,2023-07-12T21:00:00Z,moderate,0,0,0,12.15,SEOC_HP,verified
+MHIM_EVT_2023_0071,Himachal Pradesh,Mandi,landslides,2023-07-13T06:00:00Z,2023-07-16T06:00:00Z,severe,0,0,0,12.72,SEOC_HP,verified
+MHIM_EVT_2023_0087,Himachal Pradesh,Sirmaur,floods,2023-07-15T15:00:00Z,2023-07-16T15:00:00Z,severe,0,0,0,9.08,SEOC_HP,verified
+MHIM_EVT_2023_0017,Himachal Pradesh,Hamirpur,landslides,2023-07-16T22:00:00Z,2023-07-17T01:00:00Z,moderate,0,0,0,24.05,SEOC_HP,verified
+MHIM_EVT_2023_0112,Himachal Pradesh,Sirmaur,extreme_rainfall,2023-07-17T08:00:00Z,2023-07-17T14:00:00Z,severe,0,0,0,20.11,SEOC_HP,verified
+MHIM_EVT_2023_0008,Himachal Pradesh,Kullu,extreme_rainfall,2023-07-17T23:00:00Z,2023-07-18T02:00:00Z,moderate,1,1,0,14.84,SEOC_HP,verified
+MHIM_EVT_2023_0005,Himachal Pradesh,Kangra,landslides,2023-07-18T00:00:00Z,2023-07-19T00:00:00Z,severe,1,2,85,25.08,SEOC_HP,verified
+MHIM_EVT_2023_0092,Himachal Pradesh,Chamba,landslides,2023-07-18T10:00:00Z,2023-07-19T10:00:00Z,severe,0,0,0,16.53,SEOC_HP,verified
+MHIM_EVT_2023_0020,Punjab,Tarn Taran,extreme_rainfall,2023-07-18T23:00:00Z,2023-07-21T23:00:00Z,moderate,0,0,0,57.75,DDMA_Punjab,verified
+MHIM_EVT_2023_0034,Haryana,Bhiwani,floods,2023-07-19T14:00:00Z,2023-07-20T14:00:00Z,severe,0,0,0,16.66,DDMA_Haryana,verified
+MHIM_EVT_2023_0036,Himachal Pradesh,Lahaul and Spiti,extreme_rainfall,2023-07-19T16:00:00Z,2023-07-20T16:00:00Z,severe,2,6,0,7.18,SEOC_HP,verified
+MHIM_EVT_2023_0115,Punjab,Amritsar,floods,2023-07-26T10:00:00Z,2023-07-29T10:00:00Z,severe,0,0,0,45.73,DDMA_Punjab,verified
+MHIM_EVT_2023_0061,Haryana,Kaithal,extreme_rainfall,2023-07-26T22:00:00Z,2023-07-27T22:00:00Z,severe,0,0,0,87.35,DDMA_Haryana,verified
+MHIM_EVT_2023_0058,Punjab,Bathinda,extreme_rainfall,2023-07-27T07:00:00Z,2023-07-27T19:00:00Z,moderate,1,2,0,33.4,DDMA_Punjab,verified
+MHIM_EVT_2023_0042,Punjab,Malerkotla,extreme_rainfall,2023-08-01T16:00:00Z,2023-08-03T16:00:00Z,moderate,1,1,0,38.0,DDMA_Punjab,verified
+MHIM_EVT_2023_0046,Himachal Pradesh,Hamirpur,landslides,2023-08-01T21:00:00Z,2023-08-03T21:00:00Z,severe,0,0,0,29.83,SEOC_HP,verified
+MHIM_EVT_2023_0067,Haryana,Bhiwani,extreme_rainfall,2023-08-01T23:00:00Z,2023-08-04T23:00:00Z,severe,1,2,0,57.8,DDMA_Haryana,verified
+MHIM_EVT_2023_0077,Punjab,Malerkotla,extreme_rainfall,2023-08-04T12:00:00Z,2023-08-05T12:00:00Z,moderate,0,0,0,6.02,DDMA_Punjab,verified
+MHIM_EVT_2023_0051,Himachal Pradesh,Hamirpur,extreme_rainfall,2023-08-04T15:00:00Z,2023-08-04T18:00:00Z,moderate,0,0,0,25.78,SEOC_HP,verified
+MHIM_EVT_2023_0004,Himachal Pradesh,Kullu,landslides,2023-08-05T10:00:00Z,2023-08-06T10:00:00Z,severe,0,0,0,67.52,SEOC_HP,verified
+MHIM_EVT_2023_0068,Himachal Pradesh,Una,landslides,2023-08-06T03:00:00Z,2023-08-06T06:00:00Z,moderate,0,0,0,23.53,SEOC_HP,verified
+MHIM_EVT_2023_0024,Punjab,Jalandhar,floods,2023-08-06T09:00:00Z,2023-08-09T09:00:00Z,very_severe,0,0,0,114.94,DDMA_Punjab,verified
+MHIM_EVT_2023_0118,Haryana,Panchkula,floods,2023-08-09T01:00:00Z,2023-08-11T01:00:00Z,severe,0,0,0,27.72,DDMA_Haryana,verified
+MHIM_EVT_2023_0072,Himachal Pradesh,Kangra,floods,2023-08-09T07:00:00Z,2023-08-09T10:00:00Z,severe,0,0,0,67.04,SEOC_HP,verified
+MHIM_EVT_2023_0073,Haryana,Jind,floods,2023-08-09T22:00:00Z,2023-08-10T22:00:00Z,severe,1,1,80,20.98,DDMA_Haryana,verified
+MHIM_EVT_2023_0039,Himachal Pradesh,Solan,landslides,2023-08-12T17:00:00Z,2023-08-12T20:00:00Z,moderate,0,0,0,138.69,SEOC_HP,verified
+MHIM_EVT_2023_0119,Himachal Pradesh,Solan,landslides,2023-08-17T00:00:00Z,2023-08-20T00:00:00Z,moderate,0,0,0,16.86,SEOC_HP,verified
+MHIM_EVT_2023_0012,Haryana,Sonipat,floods,2023-08-19T15:00:00Z,2023-08-19T21:00:00Z,severe,1,2,52,43.52,DDMA_Haryana,verified
+MHIM_EVT_2023_0082,Haryana,Sirsa,floods,2023-08-20T08:00:00Z,2023-08-20T11:00:00Z,severe,1,3,59,6.19,DDMA_Haryana,verified
+MHIM_EVT_2023_0018,Himachal Pradesh,Kangra,floods,2023-08-21T12:00:00Z,2023-08-21T15:00:00Z,moderate,1,3,78,11.1,SEOC_HP,verified
+MHIM_EVT_2023_0088,Himachal Pradesh,Hamirpur,landslides,2023-08-21T15:00:00Z,2023-08-21T18:00:00Z,moderate,0,0,0,6.33,SEOC_HP,verified
+MHIM_EVT_2023_0120,Punjab,Fazilka,extreme_rainfall,2023-08-22T16:00:00Z,2023-08-24T16:00:00Z,moderate,0,0,0,9.25,DDMA_Punjab,verified
+MHIM_EVT_2023_0108,Haryana,Sirsa,extreme_rainfall,2023-08-23T20:00:00Z,2023-08-25T20:00:00Z,moderate,0,0,0,38.91,DDMA_Haryana,verified
+MHIM_EVT_2023_0086,Himachal Pradesh,Kinnaur,extreme_rainfall,2023-08-26T02:00:00Z,2023-08-26T08:00:00Z,moderate,0,0,0,12.2,SEOC_HP,verified
+MHIM_EVT_2023_0055,Himachal Pradesh,Shimla,landslides,2023-08-26T08:00:00Z,2023-08-26T20:00:00Z,severe,0,0,0,71.01,SEOC_HP,verified
+MHIM_EVT_2023_0047,Haryana,Bhiwani,floods,2023-08-27T14:00:00Z,2023-08-27T17:00:00Z,severe,0,0,0,26.36,DDMA_Haryana,verified
+MHIM_EVT_2023_0063,Himachal Pradesh,Lahaul and Spiti,thunderstorms,2023-09-06T06:00:00Z,2023-09-09T06:00:00Z,moderate,0,0,0,16.37,SEOC_HP,verified
+MHIM_EVT_2023_0078,Himachal Pradesh,Una,thunderstorms,2023-09-09T02:00:00Z,2023-09-09T08:00:00Z,moderate,0,0,0,22.31,SEOC_HP,verified
+MHIM_EVT_2023_0056,Haryana,Gurugram,thunderstorms,2023-09-11T11:00:00Z,2023-09-13T11:00:00Z,very_severe,0,0,0,133.1,DDMA_Haryana,verified
+MHIM_EVT_2023_0057,Himachal Pradesh,Kangra,hailstorms,2023-09-11T19:00:00Z,2023-09-14T19:00:00Z,severe,1,1,0,28.33,SEOC_HP,verified
+MHIM_EVT_2023_0116,Himachal Pradesh,Kangra,landslides,2023-09-14T13:00:00Z,2023-09-15T13:00:00Z,moderate,0,0,0,14.94,SEOC_HP,verified
+MHIM_EVT_2023_0023,Himachal Pradesh,Shimla,landslides,2023-09-14T23:00:00Z,2023-09-15T02:00:00Z,moderate,0,0,0,16.62,SEOC_HP,verified
+MHIM_EVT_2023_0066,Punjab,Rupnagar,thunderstorms,2023-09-16T17:00:00Z,2023-09-16T20:00:00Z,severe,1,2,0,40.17,DDMA_Punjab,verified
+MHIM_EVT_2023_0038,Himachal Pradesh,Shimla,thunderstorms,2023-09-20T23:00:00Z,2023-09-22T23:00:00Z,severe,0,0,0,13.7,SEOC_HP,verified
+MHIM_EVT_2023_0002,Punjab,Fatehgarh Sahib,hailstorms,2023-09-24T19:00:00Z,2023-09-25T07:00:00Z,moderate,0,0,0,23.11,DDMA_Punjab,verified
+MHIM_EVT_2023_0022,Himachal Pradesh,Una,cold_waves,2023-12-11T21:00:00Z,2023-12-12T00:00:00Z,moderate,0,0,0,92.86,SEOC_HP,verified
+MHIM_EVT_2023_0062,Himachal Pradesh,Mandi,cold_waves,2023-12-12T16:00:00Z,2023-12-15T16:00:00Z,severe,0,0,0,5.35,SEOC_HP,verified
+MHIM_EVT_2023_0050,Punjab,Firozpur,cold_waves,2023-12-13T02:00:00Z,2023-12-14T02:00:00Z,severe,0,0,0,40.47,DDMA_Punjab,verified
+MHIM_EVT_2023_0093,Himachal Pradesh,Solan,cold_waves,2023-12-18T23:00:00Z,2023-12-19T11:00:00Z,moderate,2,2,0,12.45,SEOC_HP,verified
+MHIM_EVT_2023_0084,Himachal Pradesh,Kinnaur,cold_waves,2023-12-25T05:00:00Z,2023-12-28T05:00:00Z,severe,0,0,0,55.09,SEOC_HP,verified
